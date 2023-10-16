@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor Mini Game</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+
+</head>
+
+<body class="main_body">
+
+    <div class="game_page">
+        <div class="scoreboard">
+            <h1>ROCK<br>PAPER<br>SCISSORS</h1>
+            <div class="scoreboard1">
+                <div class="computer_scores">
+                    <div class="score__title">COMPUTER</div>
+                    <div class="score__title">SCORE</div>
+                    <div class="computer_score_count">0</div>
+                </div>
+
+                <div class="your_scores">
+                    <div class="score__title">YOUR</div>
+                    <div class="score__title">SCORE</div>
+                    <div class="your_score_count">0</div>
+                </div>
+            </div>
+
+        </div>
+
+        <section class="picking">
+
+            <button class="picking_btn" data-choice="rock">
+                <div class="pick rock">
+                  <img src="Assests/Rock.png" alt="rock"/>
+                </div>
+            </button>
+
+            <button class="picking_btn" data-choice="paper">
+                <div class="pick paper">
+                  <img src="Assests/Paper.png" alt="paper"/>
+                </div>
+            </button>
+
+            <button class="picking_btn" data-choice="scissors">
+                <div class="pick scissors">
+                  <img src="Assests/scissor.png" alt="scissors"/>
+                </div>
+            </button>
+
+            <div class="blackline1"></div>
+            <div class="blackline2"></div>
+            <div class="blackline3"></div>
+
+        </section>
+    </div>
+
+    <section class="result_page hidden">
+        <h2 class="result_page__heading">YOU PICKED</h2>
+      <h2 class="result_page__heading">PC PICKED</h2>
+      <div class="result_page__result"></div>
+      <div class="result_page__winner hidden">
+        <h3 class="result_page__text1"></h3>
+        <h3 class="result_page__text2"></h3>
+        <button class="replay">REPLAY</button>
+        <button class="play_again">PLAY AGAIN</button>
+      </div>
+      <div class="result_page__result"></div>
+    </section>
+
+
+
+    
+</body>
+
+</html>
