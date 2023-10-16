@@ -1,7 +1,4 @@
-// Remove a CSS class from the document body
 document.body.classList.remove("main_body");
-
-// Select DOM elements using descriptive variable names
 const rulesButton = document.querySelector(".button_rules");
 const closeButton = document.querySelector(".button_close");
 const rulesModal = document.querySelector(".rules");
@@ -18,20 +15,15 @@ const choiceButtons = document.querySelectorAll(".picking_btn");
 const gameContainer = document.querySelector(".picking");
 const resultsContainer = document.querySelector(".result_page");
 const resultContainers = document.querySelectorAll(".result_page__result");
-
 const winnerContainer = document.querySelector(".result_page__winner");
 const resultText1 = document.querySelector(".result_page__text1");
 const resultText2 = document.querySelector(".result_page__text2");
-
 const playAgainButton = document.querySelector(".play_again");
 const replayButton = document.querySelector(".replay");
-
 const scorePlayer = document.querySelector(".score1");
 const scoreComputer = document.querySelector(".score2");
-
 const nextButton = document.querySelector(".button_next");
 
-// Initialize score variables and retrieve from local storage
 let playerScore;
 let computerScore;
 
